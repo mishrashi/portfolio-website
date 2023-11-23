@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+    color: rgb(51, 47, 47);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(17, 11, 193);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 2;
+
+}
+
+.left {
+    font-size: 1.2rem;
+    margin: 0 150px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/colorful-background-with-wave-lines_1017-33501.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699660800&semt=ais");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin-left: 150px 0;
+
+}
+
+.leftSection .btn {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.leftSection.buttons {
+    padding: 25px;
+}
+
+.homeimg img {
+    width: 100%;
+    animation: webpic_animation 10s ease-in-out infinite 1s;
+}
+
+.rightSection img {
+    width: 20%;
+    /* aspect-ratio: 5/5; */
+    border-radius: 60%;
+}
+
+@keyframes webpic_animation {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+#element {
+    color: aliceblue;
+}
+
+.left {
+    font-size: 1.2rem;
+}
+
+.rightSection img {
+    width: 120%;
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    height: 600px;
+
+}
+
+.secondSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin-left: 150px 0;
+}
+
+.left {
+    font-size: 1.2rem;
+}
+
+
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.secondSection h2 {
+    font-size: 1.5rem;
+}
+
+.secondSection div.box {
+    background-color: rgb(32, 78, 132);
+    width: 100vh;
+    height: 1px;
+    margin: 5px 0;
+    display: flex;
+
+
+}
