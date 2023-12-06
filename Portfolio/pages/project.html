@@ -2,17 +2,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
 </head>
-<body>
-Chat App
-- Description: A chat messaging app which allows Users to Chat with their favorite person.
-- Technology: React for frontend, MongoDB, Node & Express for Backend
-- Role: Full Stack Developer<br>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-Student management system 
-- Description: It helps students manage their data using CRUD operations.
-- Technology: React JS, MySQL
-- Role: Frontend Developer
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+    table{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url("https://img.freepik.com/free-vector/abstract-background-with-waves-glow-vector-illustration-light-background_1182-2531.jpg");
+        height: 665px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 64px;
+    background-color: #000000;
+    color: white;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class = "center">
+                <h1>Projects</h1>
+                </div>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <th> Project Name With Technology</th>
+            <th>Project Description</th>
+        </tr>
+        <tr>
+            <td> Chat App<br> MERN Stack</td>
+            <td>- Description: A chat messaging app which allows Users to Chat with their favorite person.<br>
+                - Technology: React for frontend, MongoDB, Node & Express for Backend.<br>
+                - Role: Full Stack Developer.
+            </td>
+
+        </tr>
+        <tr>
+            <td>Student management system<br>Wep App</td>
+            <td>- Description: It helps students manage their data using CRUD operations.<br>
+                - Technology: React JS, MySQL.<br>
+                - Role: Frontend Developer.
+            </td>
+        </tr>
+        <tr>
+            <td>Food Ordering App<br>MERN Stack</td>
+            <td> - Description: A Food Ordering app which allows users to order food, manage their profile, and view their order 
+                history.<br>
+                - Technology: React for frontend, MongoDB, Node & Express for Backend.<br>
+                - Role: Full Stack Developer</td>
+        </tr>
+    </table>
 </body>
 </html>
